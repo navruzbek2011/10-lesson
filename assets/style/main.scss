@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 550px;
+    background-color: gray;
+    position: relative;
+    border: 5px solid black;
+    top: 20px;
+    left: 450px;
+    animation: grand 5s infinite;
+
+
+    .box1 {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        border: 5px solid black;
+        border-radius: 50%;
+        position: absolute;
+        top: 35px;
+        left: 120px;
+        animation: war 5s infinite;
+    }
+
+    .box2 {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 230, 0);
+        border-radius: 50%;
+        position: absolute;
+        border: 5px solid black;
+        top: 200px;
+        left: 120px;
+        animation: good 5s infinite;
+
+    }
+
+    .box3 {
+        width: 150px;
+        height: 150px;
+        background-color: green;
+        border-radius: 50%;
+        border: 5px solid black;
+        position: absolute;
+        top: 370px;
+        left: 120px;
+        animation: golem 5s infinite;
+    }
+}
+
+.box {
+    width: 250px;
+    height: 600px;
+    background-color: gray;
+    border: 5px solid black;
+    top: 570px;
+    position: absolute;
+    left: 525px;
+}
+
+@keyframes war {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes good {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes golem {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: white;
+    }
+}

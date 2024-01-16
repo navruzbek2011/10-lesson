@@ -1,0 +1,23 @@
+@font-face {
+    font-family: roboto;
+    src: url('../fontlar/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: italick;
+    src: url('../fontlar/Roboto-Italic.ttf');
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1600px;
+    height: 3199px;
+    background:  #FFFFFF80;
+}
+
+@import "_header";

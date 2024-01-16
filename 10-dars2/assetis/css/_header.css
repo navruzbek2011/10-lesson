@@ -1,0 +1,240 @@
+header {
+  width: 1600px;
+  height: 80px;
+  background: rgba(23, 25, 29, 0.1019607843);
+  position: relative;
+}
+header .header_img {
+  position: absolute;
+  top: 15px;
+  left: 120px;
+}
+header .header_item {
+  position: absolute;
+  top: 27px;
+  left: 344px;
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+header .header_box {
+  position: absolute;
+  width: 93px;
+  height: 40px;
+  top: 20px;
+  left: 978px;
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+}
+header .header_tel {
+  position: absolute;
+  width: 170px;
+  height: 44px;
+  top: 17px;
+  left: 1111px;
+}
+header .header_tel .header_phone {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+header .header_tel .header_text {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: left;
+}
+header .header_btn {
+  position: absolute;
+  width: 168px;
+  height: 45px;
+  top: 17px;
+  left: 1312px;
+  border-radius: 7px;
+  background: #6911AD;
+  border: 1px solid #6911AD;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+}
+header .header_btn:hover {
+  border: 1px solid #6911AD;
+  background-color: #fff;
+  color: #6911AD;
+  transition: 0.5s;
+  cursor: pointer;
+}
+header .header_text_big {
+  position: absolute;
+  top: 160px;
+  left: 619px;
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+header .header_button {
+  position: absolute;
+  width: 664px;
+  height: 55px;
+  top: 244px;
+  left: 468px;
+  border: 1px;
+  background-color: white;
+  border: 1px solid #999999;
+  border-radius: 30px;
+}
+header .header_button .header_button1 {
+  width: 166px;
+  height: 53px;
+  margin-right: 500px;
+  border-radius: 30px;
+  background: linear-gradient(93.5deg, #1E11AD 12.37%, rgba(105, 17, 173, 0.95) 85.28%);
+  border: 1px solid #1E11AD;
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+header .header_button .header_apple {
+  position: absolute;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: -33px;
+  margin-left: 190px;
+  line-height: 19px;
+  text-align: left;
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+}
+header .header_img2 {
+  top: 339px;
+  left: 120px;
+  position: absolute;
+}
+header .header_img3 {
+  top: 354px;
+  left: 135px;
+  position: absolute;
+}
+header .header_img4 {
+  position: absolute;
+  top: 339px;
+  left: 583px;
+}
+header .header_img5 {
+  top: 339px;
+  left: 1047px;
+  position: absolute;
+}
+header .header_img7 {
+  top: 731px;
+  left: 120px;
+  position: absolute;
+}
+header .header_img8 {
+  position: absolute;
+  top: 731px;
+  left: 583px;
+}
+header .header_img9 {
+  top: 731px;
+  left: 1047px;
+  position: absolute;
+}
+header .header_img11 {
+  top: 1123px;
+  left: 120px;
+  position: absolute;
+}
+header .header_img12 {
+  position: absolute;
+  top: 1123px;
+  left: 583px;
+}
+header .header_img13 {
+  top: 1123px;
+  left: 1047px;
+  position: absolute;
+}
+header .header_img15 {
+  top: 1515px;
+  left: 120px;
+  position: absolute;
+}
+header .header_img16 {
+  position: absolute;
+  top: 1515px;
+  left: 583px;
+}
+header .header_img17 {
+  top: 1515px;
+  left: 1047px;
+  position: absolute;
+}
+header .header_box_gigant {
+  width: 1360px;
+  height: 873px;
+  position: absolute;
+  top: 1997px;
+  left: 120px;
+  border-radius: 20px;
+  border: 1px;
+  background: linear-gradient(0deg, #999999, #999999), linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+header .header_box_gigant .header_text_gigant {
+  font-family: italick;
+  position: absolute;
+  width: 640px;
+  height: 117px;
+  top: 50px;
+  left: 200px;
+  font-family: italick;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: left;
+}
+header .header_box_gigant .header_drink {
+  width: 487px;
+  height: 602px;
+  position: absolute;
+  top: 160px;
+  left: 913px;
+  border-radius: 10px;
+  background: rgba(83, 83, 83, 0.1019607843);
+  box-shadow: 20px 20px 40px 0px rgba(241, 216, 253, 0.0784313725);
+}
+header .header_box_gigant .header_drink .header_text_small {
+  position: absolute;
+  top: 160px;
+  left: 900px;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+}/*# sourceMappingURL=_header.css.map */

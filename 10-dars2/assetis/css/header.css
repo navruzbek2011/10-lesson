@@ -1,0 +1,90 @@
+header {
+  width: 1600px;
+  height: 80px;
+  background: rgba(23, 25, 29, 0.1019607843);
+  position: relative;
+}
+header .header_img {
+  position: absolute;
+  top: 15px;
+  left: 120px;
+}
+header .header_item {
+  position: absolute;
+  top: 27px;
+  left: 344px;
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+header .header_box {
+  position: absolute;
+  width: 93px;
+  height: 40px;
+  top: 20px;
+  left: 978px;
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+}
+header .header_tel {
+  position: absolute;
+  width: 170px;
+  height: 44px;
+  top: 17px;
+  left: 1111px;
+}
+header .header_tel .header_phone {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+header .header_tel .header_text {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: left;
+}
+header .header_btn {
+  position: absolute;
+  width: 168px;
+  height: 45px;
+  top: 17px;
+  left: 1312px;
+  border-radius: 7px;
+  background: #6911AD;
+  border: 1px solid #6911AD;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+}
+header .header_btn:hover {
+  border: 1px solid #6911AD;
+  background-color: #fff;
+  color: #6911AD;
+  transition: 0.5s;
+  cursor: pointer;
+}
+header .header_text_big {
+  position: absolute;
+  top: 160px;
+  left: 619px;
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}/*# sourceMappingURL=header.css.map */
